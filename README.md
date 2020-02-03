@@ -10,7 +10,7 @@ Topic: Defining Functions
 ===================
 
 
-Define and call functions to solve the problems below.
+### Declaring and calling functions
 
 ----------
 
