@@ -10,7 +10,11 @@ Topic: Defining Functions
 ===================
 
 
-### Declaring and calling functions
+&#30bd3a  **Declaring and calling functions**
+
+Functions are blocks of code that can used to perform a given task.
+Defining, or declaring, functions allows us to recall these blocks of code for later use
+This allows us to write DRY code
 
 ----------
 
