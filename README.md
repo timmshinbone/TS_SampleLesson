@@ -1,3 +1,12 @@
+---
+Title: Sample Lesson
+Type: Lesson
+Duration: 15 mins
+Creator: Timm Schoenborn
+Topic: Defining Functions
+
+---
+
 # Defining Functions
 ===================
 
