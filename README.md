@@ -17,26 +17,42 @@ This allows us to write DRY code
 
 
 ----------
-## Two Types of Functions
+## Two Ways of Declaring Functions
+
+__Function Expressions__
 
 ```
-	function isTheSame(str1, str2){
-		if (str1 === str2) {
-			return console.log("They're the Same!");
-		} else {
-			return console.log("They are not the same");
-		}
-	}
+function functionName(arguments){
+	block of code
+}
 ```
 
 ```
-	const isTheSame2 = (str1, str2) => {
-		if (str1 === str2) {
-			return console.log("These are the same!!");
-		} else {
-			return console.log("These are NOT the same!!");
-		}
+function isTheSame(str1, str2){
+	if (str1 === str2) {
+		return console.log("They're the Same!");
+	} else {
+		return console.log("They are not the same");
 	}
+}
+```
+
+__Arrow Functions__
+
+```
+const functionName = (argument) => {
+	block of code
+}
+```
+
+```
+const isTheSameArrow = (str1, str2) => {
+	if (str1 === str2) {
+		return console.log("These are the same!!");
+	} else {
+		return console.log("These are NOT the same!!");
+	}
+}
 ```
 
 ----------
