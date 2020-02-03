@@ -1,4 +1,4 @@
-// DEFINING FUNCTIONS
+// DECLARING FUNCTIONS
 
 // Defining functions, calling functions
 
@@ -7,7 +7,10 @@
 // 	return
 // }
 
+const names = ['timm', 'taylor', 'mark', 'alaina', 'rebecca', 'monica', 'timm']
+
 function isTheSame(str1, str2){
+	console.log("checking to see if ", str1, " and ", str2, " are the same.");
 	if (str1 === str2) {
 		return console.log("They're the Same!");
 	} else {
@@ -15,10 +18,10 @@ function isTheSame(str1, str2){
 	}
 }
 
-console.log("'timm', 'taylor'");
-isTheSame("timm", "taylor")
-console.log("'mark', 'mark'");
-isTheSame("mark", "mark")
+
+isTheSame(names[0], names[1])
+
+isTheSame(names[2], names[2])
 
 // const functionName = (arguments) => {
 // 	BLOCK OF CODE
@@ -26,6 +29,7 @@ isTheSame("mark", "mark")
 // }
 
 const isTheSameArrow = (str1, str2) => {
+	console.log("checking to see if ", str1, " and ", str2, " are the same.");
 	if (str1 === str2) {
 		return console.log("These are the same!!");
 	} else {
@@ -33,15 +37,17 @@ const isTheSameArrow = (str1, str2) => {
 	}
 }
 
-console.log("'Mark', 'Mark'");
-isTheSameArrow("Mark", "Mark")
-console.log("'Timm', 'Timm'");
-isTheSameArrow("Timm", "Timm")
-console.log("'Taylor', 'Timm'");
-isTheSameArrow("Taylor", "Timm")
-console.log("'four', 'FOUR'");
-isTheSameArrow("four", "FOUR")
-console.log("'four', '4'");
-isTheSameArrow("four", 4)
+
+isTheSameArrow(names[2], names[2])
+
+isTheSameArrow(names[0], names[5])
+
+isTheSameArrow(names[1], names[0])
+
+isTheSameArrow(names[4], names[3])
+
+isTheSameArrow('four', 4)
+
+isTheSameArrow('four', 'four')
 
 

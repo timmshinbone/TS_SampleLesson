@@ -19,21 +19,29 @@ This allows us to write DRY code
 ----------
 ## Two Ways of Declaring Functions
 
+There are two ways to declare a function, they look different, but they operate exactly the same. _They are __EXACTLY__ the same!_
+
 __Function Expressions__
 
+This is one way of writing functions
 ```
-function functionName(arguments){
-	block of code
+function theName(arguments){
+	---------------
+	-block of code-
+	---------------
+	return
 }
 ```
+-writing _function_ makes the declaration
+- _theName_ is what you will use to invoke, or _call_, the function. 
+-- __This is always written in camelCase__
+-- try to use a verb, or describe what your function does.
+- _(arguments)_ are any variables that you need to define the parameters of the function
+- _block of code_ is where you set the parameters of the function
 
 ```
-function isTheSame(str1, str2){
-	if (str1 === str2) {
-		return console.log("They're the Same!");
-	} else {
-		return console.log("They are not the same");
-	}
+function addNums(num1, num2){
+	return (num1 + num2) 
 }
 ```
 
