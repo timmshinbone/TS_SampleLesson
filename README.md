@@ -25,7 +25,7 @@ __Function Expressions__
 
 This is one way of writing functions
 ```
-function theName(arguments){
+function theName(arg1, arg2, ...){
 	---------------
 	-block of code-
 	---------------
@@ -36,8 +36,8 @@ function theName(arguments){
 - _theName_ is what you will use to invoke, or _call_, the function. 
 -- __This is always written in camelCase__
 -- try to use a verb, or describe what your function does.
-- _(arguments)_ are any variables that you need to define the parameters of the function
-- _block of code_ is where you set the parameters of the function
+- _(arg1, arg2, ...)_ arguments are the parameters for the function
+- _block of code_ statements where you set the actions of the function
 
 ```
 function addNums(num1, num2){
@@ -48,7 +48,7 @@ function addNums(num1, num2){
 __Arrow Functions__
 
 ```
-const functionName = (argument) => {
+const theName = (arg1, arg2, ...) => {
 	block of code
 }
 ```
