@@ -7,6 +7,22 @@
 // 	return
 // }
 
+function addNumsFunc(num1, num2){
+	console.log(num1 + num2);
+	return (num1 + num2); 
+}
+
+console.log("this is addNumsFunc console log\n\n", addNumsFunc(2, 3));
+addNumsFunc(2, 3)
+
+const addNums = (num1, num2) => {
+	console.log(num1 + num2);
+	return (num1 + num2)
+}
+
+console.log("this is addNums console log \n\n", addNums(7, 3));
+addNums(7, 3)
+
 const names = ['timm', 'taylor', 'mark', 'alaina', 'rebecca', 'monica', 'timm']
 
 function isTheSame(str1, str2){

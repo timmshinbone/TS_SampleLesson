@@ -9,11 +9,35 @@ Topic: Defining Functions
 # Declaring Functions
 ===================
 
-### Declaring and calling functions
+### GOAL
+
+By the end of this lesson, students should be able to declare and invoke functions.
+
+### Recap
+
+So far, we've learned about 
+	- Data Types
+	- Objects
+	- Loops
+
+Remember, to declare an object looks like this,
+
+```
+const car = {
+	color: 'white',
+	wheels: 4,
+	transmission: 'automatic',
+	smells = ['pine trees', 'leather', 'french fries']
+}
+```
+
+Similarly to how we declare objects, we need to declare and invoke functions in order to write DRY(Don't Repeat Yourself) code.
+
+## Declaring and calling functions
 
 Functions are blocks of code that can used to perform a given task.
 Defining, or declaring, functions allows us to recall these blocks of code for later use
-This allows us to write DRY code
+This helps to keep our code DRY
 
 
 ----------
@@ -40,26 +64,27 @@ function theName(arg1, arg2, ...){
 - _block of code_ statements where you set the actions of the function
 
 ```
-function addNums(num1, num2){
+function addNumsFunc(num1, num2){
 	return (num1 + num2) 
 }
 ```
 
 __Arrow Functions__
 
+The other way is to use an Arrow Function. Remember, arrow functions operate the _EXACT SAME WAY_ as the function we just saw. They just look different, and preference really lies with the person writing the code.(sometimes arrows are better, in certain use cases, but let's not worry about that right now.)
+
 ```
 const theName = (arg1, arg2, ...) => {
-	block of code
+	---------------
+	-block of code-
+	---------------
+	return
 }
 ```
 
 ```
-const isTheSameArrow = (str1, str2) => {
-	if (str1 === str2) {
-		return console.log("These are the same!!");
-	} else {
-		return console.log("These are NOT the same!!");
-	}
+const addNums = (num1, num2) => {
+	return (num1 + num2)
 }
 ```
 
