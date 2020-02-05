@@ -6,7 +6,7 @@ Topic: Declaring and Calling Functions
 
 ---
 ----------
-# Declaring Functions
+# Declaring And Calling Functions
 ----------
 
 ## GOAL
@@ -42,7 +42,7 @@ console.log(car.smells[2]);
 
 Similarly to how we use objects, we need to declare and invoke functions in order to write __DRY__(_Don't Repeat Yourself_) code.
 
-## Declaring and calling functions
+## Declaring Functions
 
 Functions are blocks of code that can be used to perform a given task, and used repeatedly for that, as well as, other tasks.
 
@@ -81,7 +81,7 @@ function addNumsFunc(num1, num2){
 
 #### Arrow Functions
 
-The other way is to use an Arrow Function. Remember, arrow functions operate the _EXACT SAME WAY_ as the function we just saw. They just look different, and preference really lies with the person writing the code.(sometimes arrows are better, in certain use cases, but let's not worry about that right now.)
+The other method is to use an Arrow Function. Remember, arrow functions operate the *__EXACT__ SAME WAY* as the function we just saw. They just look different, and preference really lies with the person writing the code.(sometimes arrows are better, in certain use cases, but let's not worry about that right now.)
 
 ```
 const theName = (arg1, arg2, ...) => {
@@ -105,20 +105,20 @@ const addNums = (num1, num2) => {
 
 ### Class Activity
 
-__1.__ Declare one function that adds two numbers, halves the sum, and prints the result to the console. Invoke the function for each of these sets of numbers:
+__1.__ Declare one function called _addAndHalve_ that takes two numbers as arguments, adds those two numbers, halves the sum, and returns the result. Invoke the function using each of these sets of numbers:
 
 	- 5, 11
 	- 4, 16
 	- 8, 20
 
-__2.__ Declare one function that will multiply two numbers, and compile the results in an array called "products". Invoke that function for these sets of numbers.
+__2.__ Declare one function called _multiply_ that will multiply two numbers, and _push_ the results to an array called _products_. Invoke that function for these sets of numbers. Log the resulting array to the console.
 
 	- 3, 5
 	- 2, 4
 	- 10, 5
 	- 4, 20
 
-__3.__ 
+__3.__ Declare one function called _divider_ that takes two arguments, and divides the first number by the second. Use the first item from the newly minted _products_ array, and divide it by the first number of the first set from the last problem. Do this for each of the items in _products_ with their corresponding first number from problem #2. (the result should be the second number from each set!)
 
 ----------
 
@@ -129,11 +129,11 @@ __3.__
 - Sample Text
 
 
-![Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function "MDN - Function Expressions")
+[Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function "MDN - Function Expressions")
 
-![Function Declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "MDN - Function Declaration")
+[Function Declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "MDN - Function Declaration")
 
-![Sample Text](link "link description")
+[Pushing to an Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push "MDN - array.push")
 
 
 [Sample Text](link "link description")

@@ -38,51 +38,91 @@ const addNums = (num1, num2) => {
 console.log("this is addNums console log \n\n", addNums(7, 3));
 addNums(7, 3)
 
+const addAndHalve = (num1, num2) => {
+	let sum = num1 + num2;
+	return sum / 2
+};
 
+console.log("this is addAndHalve(5, 11)");
+console.log(addAndHalve(5, 11));
+
+console.log("this is addAndHalve(4, 16)");
+console.log(addAndHalve(4, 16));
+
+console.log("this is addAndHalve(8, 20)");
+console.log(addAndHalve(8, 20));
+
+let products = []
+
+const multiply = (num1, num2) => {
+	let product = num1 * num2
+	return products.push(product)
+}
+
+console.log(products);
+
+multiply(3, 5);
+multiply(2, 8);
+multiply(10, 5);
+multiply(4, 20);
+
+console.log(products);
+
+const divider = (num1, num2) => {
+	return num1 / num2
+}
+
+console.log(divider(products[0], 3));
+console.log(divider(products[1], 2));
+console.log(divider(products[2], 10));
+console.log(divider(products[3], 4));
+
+
+//////////////////////////////////////////////////////////////////
 //OTHER EXAMPLES WITH DIFFERENT DATA TYPES
 
-const names = ['timm', 'taylor', 'mark', 'alaina', 'rebecca', 'monica', 'timm']
+// const names = ['timm', 'taylor', 'mark', 'alaina', 'rebecca', 'monica', 'timm']
 
-function isTheSame(str1, str2){
-	console.log("checking to see if ", str1, " and ", str2, " are the same.");
-	if (str1 === str2) {
-		return console.log("They're the Same!");
-	} else {
-		return console.log("They are not the same");
-	}
-}
-
-
-isTheSame(names[0], names[1])
-
-isTheSame(names[2], names[2])
-
-// const functionName = (arguments) => {
-// 	BLOCK OF CODE
-// 	return
+// function isTheSame(str1, str2){
+// 	console.log("checking to see if ", str1, " and ", str2, " are the same.");
+// 	if (str1 === str2) {
+// 		return console.log("They're the Same!");
+// 	} else {
+// 		return console.log("They are not the same");
+// 	}
 // }
 
-const isTheSameArrow = (str1, str2) => {
-	console.log("checking to see if ", str1, " and ", str2, " are the same.");
-	if (str1 === str2) {
-		return console.log("These are the same!!");
-	} else {
-		return console.log("These are NOT the same!!");
-	}
-}
+
+// isTheSame(names[0], names[1])
+
+// isTheSame(names[2], names[2])
+
+// // const functionName = (arguments) => {
+// // 	BLOCK OF CODE
+// // 	return
+// // }
+
+// const isTheSameArrow = (str1, str2) => {
+// 	console.log("checking to see if ", str1, " and ", str2, " are the same.");
+// 	if (str1 === str2) {
+// 		return console.log("These are the same!!");
+// 	} else {
+// 		return console.log("These are NOT the same!!");
+// 	}
+// }
 
 
-isTheSameArrow(names[2], names[2])
+// isTheSameArrow(names[2], names[2])
 
-isTheSameArrow(names[0], names[5])
+// isTheSameArrow(names[0], names[5])
 
-isTheSameArrow(names[1], names[0])
+// isTheSameArrow(names[1], names[0])
 
-isTheSameArrow(names[4], names[3])
+// isTheSameArrow(names[4], names[3])
 
-isTheSameArrow('four', 4)
+// isTheSameArrow('four', 4)
 
-isTheSameArrow('four', 'four')
+// isTheSameArrow('four', 'four')
 
 
 
