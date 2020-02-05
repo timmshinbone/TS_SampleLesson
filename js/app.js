@@ -1,11 +1,26 @@
+
+//RECAP - OBJECTS
+
+// Objects
+
+//declaring objects
+const car = {
+	color: 'white',
+	wheels: 4,
+	transmission: 'automatic',
+	smells: ['pine trees', 'leather', 'french fries']
+}
+
+//calling objects
+
+console.log(car);
+console.log(car.transmission);
+console.log(car.smells[2]);
+
 // DECLARING FUNCTIONS
 
 // Defining functions, calling functions
 
-// function functionName(arguments) {
-// 	BLOCK OF CODE
-// 	return
-// }
 
 function addNumsFunc(num1, num2){
 	console.log(num1 + num2);
@@ -22,6 +37,9 @@ const addNums = (num1, num2) => {
 
 console.log("this is addNums console log \n\n", addNums(7, 3));
 addNums(7, 3)
+
+
+//OTHER EXAMPLES WITH DIFFERENT DATA TYPES
 
 const names = ['timm', 'taylor', 'mark', 'alaina', 'rebecca', 'monica', 'timm']
 
@@ -65,5 +83,8 @@ isTheSameArrow(names[4], names[3])
 isTheSameArrow('four', 4)
 
 isTheSameArrow('four', 'four')
+
+
+
 
 
