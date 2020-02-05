@@ -66,7 +66,7 @@ function theName(arg1, arg2, ...){
 	return
 }
 ```
--writing _function_ makes the declaration
+- writing _function_ makes the declaration
 - _theName_ is what you will use to invoke, or _call_, the function. 
 	- __This is always written in camelCase__
 	- try to use a verb, or describe what your function does.
@@ -123,15 +123,15 @@ __3.__
 ----------
 
 
-## Lesson Resources
+## Further Reading and Resources
 -------------
 
 - Sample Text
 
 
-![Sample Text](link "link description")
+![Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function "MDN - Function Expressions")
 
-![Sample Text](link "link description")
+![Function Declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "MDN - Function Declaration")
 
 ![Sample Text](link "link description")
 
