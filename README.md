@@ -16,10 +16,10 @@ By the end of this lesson, students should be able to declare and invoke functio
 ----------
 ### Recap
 
-So far, we've learned about 
-	- Data Types
-	- Objects
-	- Loops
+So far, we've learned about:
+- Data Types
+- Objects
+- Loops
 
 Remember, to declare an object looks like this:
 
@@ -31,7 +31,7 @@ const car = {
 	smells: ['pine trees', 'leather', 'french fries']
 }
 ```
-To access the properties, or key-value pairs, of an object, we have to _call_, or _invoke_, those properties, like this:
+To access the properties, or key-value pairs, of an object, we have to _call_, or _invoke_, those properties. Below, we are logging the values to the console:
 
 ```
 console.log(car);
@@ -46,7 +46,7 @@ Similarly to how we use objects, we need to declare and invoke functions in orde
 
 Functions are blocks of code that can be used to perform a given task, and used repeatedly for that, as well as, other tasks.
 
-__Declaring__ functions allows us to recall these blocks of code for later use
+__Declaring__ functions allows us to recall these blocks of code for later use.
 This helps to keep our code __*DRY*__
 
 
@@ -54,7 +54,7 @@ This helps to keep our code __*DRY*__
 ## Two Ways of Declaring Functions
 
 There are two ways to declare a function, they look different, but they operate exactly the same. 
-##### _They are __EXACTLY__ the same!_
+##### _Let me repeat, they are __EXACTLY__ the same!_
 
 #### Function Expressions
 
@@ -81,7 +81,7 @@ Let's take a look at a basic addition function:
 function addNumsFunc(num1, num2){
 	let sum = num1 + num2
 	return sum 
-}
+};
 ```
 Pretty straightforward, right?
 
@@ -102,14 +102,31 @@ const theName = (arg1, arg2, ...) => {
 const addNums = (num1, num2) => {
 	let sum = num1 + num2
 	return sum
-}
+};
 ```
 
 ## Calling Functions
 
-### Further Examples
+__GOOD NEWS!__
+
+Calling, or _invoking_, functions is the easy part!!
+
+All we do to call a function, is type the name of the function with a set of parentheses next to it, your arguments are to be placed in the parentheses. 
+
+For example, if I wanted to use our addNums function to find out what 1 + 2 is, I'd *__call__* the function like this:
+
+```
+addNums(1, 2);
+```
+
+You can also call functions _inside_ of other functions. For instance, if I wanted to log the result of my previous function call to the console, I'd do so as follows:
+
+```
+console.log(addNums(1, 2));
+```
 
 
+----------
 ### Class Activity
 
 __1.__ Declare one function called _addAndHalve_ that takes two numbers as arguments, adds those two numbers, halves the sum, and returns the result. Invoke the function using each of these sets of numbers:
@@ -125,7 +142,7 @@ __2.__ Declare one function called _multiply_ that will multiply two numbers, an
 	- 10, 5
 	- 4, 20
 
-__3.__ Declare one function called _divider_ that takes two arguments, and divides the first number by the second. Use the first item from the newly minted _products_ array, and divide it by the first number of the first set from the last problem. Do this for each of the items in _products_ with their corresponding first number from problem #2. (the result should be the second number from each set!)
+__3.__ Declare one function called _divider_ that takes two arguments, and divides the first by the second. Use the first item from the newly minted _products_ array for the first argument, and divide it by the first number of the first set from the last problem(#2). Do this for each of the items in _products_ with their corresponding first number from problem #2. (the result should be the second number from each set!)
 
 ----------
 
@@ -137,7 +154,8 @@ __3.__ Declare one function called _divider_ that takes two arguments, and divid
 
 [Function Declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function "MDN - Function Declaration")
 
+[Function Return Values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values "MDN - Function Return Values")
+
 [Pushing to an Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push "MDN - array.push")
 
 
-[Sample Text](link "link description")
