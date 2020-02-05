@@ -53,7 +53,8 @@ This helps to keep our code __*DRY*__
 ----------
 ## Two Ways of Declaring Functions
 
-There are two ways to declare a function, they look different, but they operate exactly the same. _They are __EXACTLY__ the same!_
+There are two ways to declare a function, they look different, but they operate exactly the same. 
+##### _They are __EXACTLY__ the same!_
 
 #### Function Expressions
 
@@ -125,9 +126,6 @@ __3.__ Declare one function called _divider_ that takes two arguments, and divid
 
 ## Further Reading and Resources
 -------------
-
-- Sample Text
-
 
 [Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function "MDN - Function Expressions")
 
