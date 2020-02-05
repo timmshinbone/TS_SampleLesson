@@ -45,7 +45,7 @@ This helps to keep our code DRY
 
 There are two ways to declare a function, they look different, but they operate exactly the same. _They are __EXACTLY__ the same!_
 
-__Function Expressions__
+#### __Function Expressions__
 
 This is one way of writing functions
 ```
@@ -69,7 +69,7 @@ function addNumsFunc(num1, num2){
 }
 ```
 
-__Arrow Functions__
+#### __Arrow Functions__
 
 The other way is to use an Arrow Function. Remember, arrow functions operate the _EXACT SAME WAY_ as the function we just saw. They just look different, and preference really lies with the person writing the code.(sometimes arrows are better, in certain use cases, but let's not worry about that right now.)
 
@@ -88,10 +88,32 @@ const addNums = (num1, num2) => {
 }
 ```
 
+## Calling Functions
+
+### Further Examples
+
+
+### Class Activity
+
+__1.__ Declare one function that adds two numbers, halves the sum, and prints the result to the console. Invoke the function for each of these sets of numbers:
+
+	- 5, 11
+	- 4, 16
+	- 8, 20
+
+__2.__ Declare one function that will multiply two numbers, and compile the results in an array called "products". Invoke that function for these sets of numbers.
+
+	- 3, 5
+	- 2, 4
+	- 10, 5
+	- 4, 20
+
+__3.__ 
+
 ----------
 
 
-## Lesson Plan
+## Lesson Resources
 -------------
 
 - Sample Text
