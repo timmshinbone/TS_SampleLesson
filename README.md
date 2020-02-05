@@ -149,7 +149,7 @@ __1.__ Declare one function called _addAndHalve_ that takes two numbers as argum
 	- 4, 16
 	- 8, 20
 
-__2.__ Declare a function called _undoHalve_ that takes two arguments, and _calls_ the function from problem 1(_addAndHalve_), doubles the value and returns that as a result. Invoke the function for the same set of numbers from problem 1. Log the result to the console.
+__2.__ Declare a function called _undoHalve_ that takes two arguments, and _calls_ the function from problem 1(_addAndHalve_), doubles the value and returns that as a result. Invoke the function for the same set of numbers from problem 1. Log the result of each to the console.
 
 __3.__ Declare one function called _multiply_ that will multiply two numbers, and _push_ the results to an array called _products_. Invoke that function for these sets of numbers. Log the resulting array to the console.
 
@@ -158,7 +158,7 @@ __3.__ Declare one function called _multiply_ that will multiply two numbers, an
 	- 10, 5
 	- 4, 20
 
-__4.__ Declare one function called _divide_ that takes two arguments, and divides the first by the second. Use the first item from the newly minted _products_ array for the first argument, and divide it by the first number of the first set from the last problem(#3). Do this for each of the items in _products_ with their corresponding first number from problem #3. (the result should be the second number from each set!) Log each of the results to the console.
+__4.__ Declare one function called _divide_ that takes two arguments, and divides the first by the second. Use the first item from the newly minted _products_ array for the first argument, and divide it by the first number of the first set from the last problem(so, products[0] will be divided by 3, etc). Do this for each of the items in _products_ with their corresponding first number from problem #3. (the result should be the second number from each set!) Log each of the results to the console.
 
 ----------
 
