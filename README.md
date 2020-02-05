@@ -13,7 +13,6 @@ Topic: Declaring and Calling Functions
 
 By the end of this lesson, students should be able to declare and invoke functions.
 
-----------
 ### Recap
 
 So far, we've learned about:
@@ -38,10 +37,18 @@ console.log(car);
 console.log(car.transmission);
 console.log(car.smells[2]);
 ```
+Remember that declaring variables works the same way, like this:
+```
+const theNumberTen = 10;
 
+const myName = Timm;
 
-Similarly to how we use objects, we need to declare and invoke functions in order to write __DRY__(_Don't Repeat Yourself_) code.
+let spicesArray = [salt, pepper, oregano, paprika] 
+```
 
+Similarly to how we use objects and variables, we need to declare and invoke functions in order to write __DRY__(_Don't Repeat Yourself_) code.
+
+----------
 ## Declaring Functions
 
 Functions are blocks of code that can be used to perform a given task, and used repeatedly for that and other tasks.
@@ -107,7 +114,7 @@ const addNums = (num1, num2) => {
 
 You'll notice that the block of code inside this arrow function is _EXACTLY_ the same as the function before. This is because, again, *__THEY ARE EXACTLY THE SAME!__*
 
-
+----------
 ## Calling Functions
 
 __GOOD NEWS!__
@@ -141,7 +148,7 @@ You can do all this and so much more with functions, but the best way to learn i
 So let's try the following problems out for a few minutes, and then go over them together.
 
 ----------
-### Class Activity
+## Class Activity
 
 __1.__ Declare one function called _addAndHalve_ that takes two numbers as arguments, adds those two numbers, halves the sum, and returns the result. Invoke the function using each of these sets of numbers, and log the result to the console:
 
