@@ -38,6 +38,14 @@ const addNums = (num1, num2) => {
 console.log("this is addNums \n\n");
 console.log(addNums(7, 3));
 
+const three = addNums(1, 2);
+console.log(three);
+
+
+//1. ANSWER KEY
+console.log("PROBLEM 1");
+
+
 const addAndHalve = (num1, num2) => {
 	let sum = num1 + num2;
 	return sum / 2
@@ -51,6 +59,24 @@ console.log(addAndHalve(4, 16));
 
 console.log("this is addAndHalve(8, 20)");
 console.log(addAndHalve(8, 20));
+
+//2. ANSWER KEY
+console.log("PROBLEM 2");
+
+const undoHalve = (num1, num2) => {
+	let funcOneValue = addAndHalve(num1, num2)
+	return (funcOneValue * 2)
+}
+
+console.log("this is undoHalve(5, 11)");
+console.log(undoHalve(5, 11));
+console.log("this is undoHalve(4, 16)");
+console.log(undoHalve(4, 16));
+console.log("this is undoHalve(8, 20)");
+console.log(undoHalve(8, 20));
+
+//3. ANSWER KEY
+console.log("PROBLEM 3");
 
 let products = []
 
@@ -67,6 +93,10 @@ multiply(10, 5);
 multiply(4, 20);
 
 console.log("This is the completed products array, \n", products);
+
+//4. ANSWER KEY
+console.log("PROBLEM 4");
+
 
 const divider = (num1, num2) => {
 	return num1 / num2
