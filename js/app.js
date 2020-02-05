@@ -23,20 +23,20 @@ console.log(car.smells[2]);
 
 
 function addNumsFunc(num1, num2){
-	console.log(num1 + num2);
-	return (num1 + num2); 
+	let sum = num1 + num2;
+	return sum 
 }
 
-console.log("this is addNumsFunc console log\n\n", addNumsFunc(2, 3));
-addNumsFunc(2, 3)
+console.log("this is addNumsFunc \n\n");
+console.log(addNumsFunc(2, 3));
 
 const addNums = (num1, num2) => {
-	console.log(num1 + num2);
-	return (num1 + num2)
+	let sum = num1 + num2;
+	return sum
 }
 
-console.log("this is addNums console log \n\n", addNums(7, 3));
-addNums(7, 3)
+console.log("this is addNums \n\n");
+console.log(addNums(7, 3));
 
 const addAndHalve = (num1, num2) => {
 	let sum = num1 + num2;
@@ -59,14 +59,14 @@ const multiply = (num1, num2) => {
 	return products.push(product)
 }
 
-console.log(products);
+console.log("This should be empty products array, \n", products);
 
 multiply(3, 5);
 multiply(2, 8);
 multiply(10, 5);
 multiply(4, 20);
 
-console.log(products);
+console.log("This is the completed products array, \n", products);
 
 const divider = (num1, num2) => {
 	return num1 / num2

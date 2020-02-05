@@ -72,13 +72,18 @@ function theName(arg1, arg2, ...){
 	- __This is always written in camelCase__
 	- try to use a verb, or describe what your function does.
 - _(arg1, arg2, ...)_ arguments are the parameters for the function
-- _block of code_ statements where you set the actions of the function
+- _block of code_ These are the statements where you set the actions of the function
+- _return_ -Functions always automatically result as _undefined_, this is where you tell the function what information you're looking to get out of it. Every function, no matter the complexity, should only return one result.
+
+Let's take a look at a basic addition function:
 
 ```
 function addNumsFunc(num1, num2){
-	return (num1 + num2) 
+	let sum = num1 + num2
+	return sum 
 }
 ```
+Pretty straightforward, right?
 
 #### Arrow Functions
 
@@ -95,7 +100,8 @@ const theName = (arg1, arg2, ...) => {
 
 ```
 const addNums = (num1, num2) => {
-	return (num1 + num2)
+	let sum = num1 + num2
+	return sum
 }
 ```
 
