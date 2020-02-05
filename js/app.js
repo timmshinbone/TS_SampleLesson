@@ -98,14 +98,14 @@ console.log("This is the completed products array, \n", products);
 console.log("PROBLEM 4");
 
 
-const divider = (num1, num2) => {
+const divide = (num1, num2) => {
 	return num1 / num2
 }
 
-console.log(divider(products[0], 3));
-console.log(divider(products[1], 2));
-console.log(divider(products[2], 10));
-console.log(divider(products[3], 4));
+console.log(divide(products[0], 3));
+console.log(divide(products[1], 2));
+console.log(divide(products[2], 10));
+console.log(divide(products[3], 4));
 
 
 //////////////////////////////////////////////////////////////////

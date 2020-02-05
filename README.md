@@ -138,7 +138,7 @@ console.log(three);
 
 You can do all this and so much more with functions, but the best way to learn is by *practice, PRACTICE, __PRACTICE!__*
 
-So let's do try these out for a few minutes, and then go over them together.
+So let's try the following problems out for a few minutes, and then go over them together.
 
 ----------
 ### Class Activity
@@ -158,7 +158,7 @@ __3.__ Declare one function called _multiply_ that will multiply two numbers, an
 	- 10, 5
 	- 4, 20
 
-__4.__ Declare one function called _divider_ that takes two arguments, and divides the first by the second. Use the first item from the newly minted _products_ array for the first argument, and divide it by the first number of the first set from the last problem(#3). Do this for each of the items in _products_ with their corresponding first number from problem #3. (the result should be the second number from each set!) Log each of the results to the console.
+__4.__ Declare one function called _divide_ that takes two arguments, and divides the first by the second. Use the first item from the newly minted _products_ array for the first argument, and divide it by the first number of the first set from the last problem(#3). Do this for each of the items in _products_ with their corresponding first number from problem #3. (the result should be the second number from each set!) Log each of the results to the console.
 
 ----------
 
